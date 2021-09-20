@@ -1,0 +1,63 @@
+---
+title: "Crypto101 Express"
+subtitle: "Introduction à Linux"
+author: "DaVinciCode"
+date: "20/09/2021"
+output:
+  beamer_presentation:
+    theme: "Madrid"
+    colortheme: "beaver"
+    fonttheme: "structurebold"
+    latex_engine: xelatex
+    includes:
+      in_header: header.tex
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+```
+
+# `whoami`
+
+```{r, echo=FALSE, fig.align='center', out.width = "20%"}
+include_graphics("images/esilv.png")
+```
+
+- Louis
+- A5 (majeure IOS)
+
+# Linux
+
+- créé en 1991 par Linus Torvalds
+- GNU/Linux: système d'exploitation le plus utilisé dans les serveurs
+- Open source
+
+# Who am I, where am I?
+
+```{bash}
+# Where am I?
+pwd
+whoami
+```
+```{bash}
+# Who am i?
+id
+```
+```{bash}
+# What's in my directory?
+ls
+```
+
+# What am I connected to?
+
+```{bash}
+# What am I connected to?
+uname -a
+```
+```{bash}
+hostname
+```
+```{bash}
+#ip a
+```
+
