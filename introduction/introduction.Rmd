@@ -1,6 +1,6 @@
 ---
 title: "Crypto101 Express"
-subtitle: "Introduction à Linux"
+subtitle: "Introduction à GNU/Linux/Bash"
 author: "DaVinciCode"
 date: "20/09/2021"
 output:
@@ -15,49 +15,157 @@ output:
 
 ```{r setup, include=FALSE}
 library(knitr)
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 ```
 
 # `whoami`
 
-```{r, echo=FALSE, fig.align='center', out.width = "20%"}
+```{r, echo=FALSE, fig.show="hold", fig.align='center', out.width = "20%"}
 include_graphics("images/esilv.png")
+include_graphics("images/davincicode.png")
 ```
 
 - Louis
-- A5 (majeure IOS)
+- A5 IOS
 
 # Linux
 
-- créé en 1991 par Linus Torvalds
-- GNU/Linux: système d'exploitation le plus utilisé dans les serveurs
+- created in 1991 by Linus Torvalds
+- GNU/Linux: most used operating system on servers
 - Open source
 
-# Who am I, where am I?
+# Linux
 
-```{bash}
+- **EVERYTHING** is a file
+- a file is a collection of data stored in one unit
+
+# Getting the context
+
+```{bash eval=FALSE}
 # Where am I?
 pwd
 whoami
 ```
-```{bash}
+
+# Getting the context
+```{bash eval=FALSE}
 # Who am i?
 id
 ```
-```{bash}
+
+# Getting the context
+```{bash eval=FALSE}
 # What's in my directory?
 ls
 ```
 
-# What am I connected to?
-
-```{bash}
+# Getting the context
+```{bash eval=FALSE}
 # What am I connected to?
 uname -a
 ```
-```{bash}
-hostname
-```
-```{bash}
-#ip a
+
+# Getting the context
+
+```{bash eval=FALSE}
+# What am I connected to?
+ip a
 ```
 
+# Read the f(ancy|ucking) manual
+
+Almost all commands display help when you type:
+
+```{bash eval=FALSE}
+man bash
+# or
+bash --help
+```
+
+# Moving around directories
+
+```{bash eval=FALSE}
+cd /home/louis # Change Directory
+cat, xxd, head, tail, diff, less
+mkdir
+touch, rm
+cp
+mv
+nano, vim
+```
+
+# Ownership and permissions
+
+Use the **sudo** prefix to execute the command as the superuser (admin).
+
+```{bash eval=FALSE}
+sudo
+chmod
+chown
+```
+
+# Finding files
+
+```{bash eval=FALSE}
+find
+locate
+which
+```
+
+# Piping
+
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+include_graphics("images/piping.jpg")
+```
+
+You can pipe commands together and use the output of a command into another command:
+```{bash eval=FALSE}
+grep -v '#' main.py | wc -l
+```
+
+# Installing programs (Debian/Ubuntu)
+
+```{bash eval=FALSE}
+apt update # download packages information
+apt install vim
+```
+
+# Compressing and archiving
+
+```{bash eval=FALSE}
+tar xvf archive.tar.gz
+gzip -d archive.gz
+unzip archive.zip
+```
+
+# Never forgetti
+
+If you forget a command that you already typed, check your history!
+
+```{bash eval=FALSE}
+history
+history | grep 'ssh'
+```
+
+You can also use Ctrl+R to search in your history directly from the command line.
+
+# Networking
+
+```{bash eval=FALSE}
+ping # send ICMP requests
+nc # raw TCP sessions
+ssh # Secure SHell
+curl # send HTTP requests
+wget # send HTTP requests
+traceroute # see the route of a TCP packet to a given host
+nslookup # send DNS requests
+dig # send DNS requests
+```
+
+# Processes
+
+```{bash eval=FALSE}
+ps # list all processes
+pstree # list all processes with parents/children
+systemctl # service manager
+```
