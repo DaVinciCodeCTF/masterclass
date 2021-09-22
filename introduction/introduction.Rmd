@@ -1,6 +1,6 @@
 ---
-title: "Crypto101 Express"
-subtitle: "Introduction à GNU/Linux/Bash"
+title: "Linux101 Express"
+subtitle: "Introduction to GNU/Linux/Bash"
 author: "DaVinciCode"
 date: "20/09/2021"
 output:
@@ -27,6 +27,7 @@ include_graphics("images/davincicode.png")
 
 - Louis
 - A5 IOS
+- Vice-president of DaVinciCode
 
 # Linux
 
@@ -34,10 +35,11 @@ include_graphics("images/davincicode.png")
 - GNU/Linux: most used operating system on servers
 - Open source
 
-# Linux
+# Bash
 
-- **EVERYTHING** is a file
-- a file is a collection of data stored in one unit
+- Born Again SHell
+- interpreter
+- textual interface with your computer
 
 # Getting the context
 
@@ -123,6 +125,13 @@ You can pipe commands together and use the output of a command into another comm
 grep -v '#' main.py | wc -l
 ```
 
+# Stream redirection
+
+- two primary streams: stdin (input) and stdout (output)
+```{bash eval=FALSE}
+base64 -w 0 < summary.txt > summary.txt.b64
+```
+
 # Installing programs (Debian/Ubuntu)
 
 ```{bash eval=FALSE}
@@ -169,3 +178,22 @@ ps # list all processes
 pstree # list all processes with parents/children
 systemctl # service manager
 ```
+
+# Bash scripting
+
+```{bash eval=FALSE}
+for offset in {1..100}
+do
+	curl http://images.amazing.school/$offset
+done
+```
+
+# Linux
+
+- **EVERYTHING** is a file
+  - e.g. keyboard events are accessible @ `/dev/input/event0`, the brightness of your screen @ `/sys/class/backlight`
+- a file is a collection of data stored in one unit
+
+# Going further
+
+- _The Missing Semester of Your CS Education_ at [https://missing.csail.mit.edu/](https://missing.csail.mit.edu/)
