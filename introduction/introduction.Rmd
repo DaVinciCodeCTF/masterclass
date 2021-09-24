@@ -11,6 +11,7 @@ output:
     latex_engine: xelatex
     includes:
       in_header: header.tex
+classoption: "aspectratio=169"
 ---
 
 ```{r setup, include=FALSE}
@@ -46,13 +47,13 @@ include_graphics("images/davincicode.png")
 ```{bash eval=FALSE}
 # Where am I?
 pwd
-whoami
 ```
 
 # Getting the context
 ```{bash eval=FALSE}
 # Who am i?
 id
+whoami
 ```
 
 # Getting the context
@@ -112,6 +113,7 @@ chown
 find
 locate
 which
+grep # Find inside a file
 ```
 
 # Piping
@@ -129,6 +131,7 @@ grep -v '#' main.py | wc -l
 
 - two primary streams: stdin (input) and stdout (output)
 ```{bash eval=FALSE}
+echo 'hello' > summary.txt
 base64 -w 0 < summary.txt > summary.txt.b64
 ```
 
@@ -184,7 +187,7 @@ systemctl # service manager
 ```{bash eval=FALSE}
 for offset in {1..100}
 do
-	curl http://images.amazing.school/$offset
+	curl http://images.amazing.school/?image=$offset
 done
 ```
 
