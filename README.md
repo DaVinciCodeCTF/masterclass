@@ -6,4 +6,4 @@ Cours de Linux proposé par DaVinciCode, [l'association de cybersécurité](http
 
 ## Liens vers les slides
 
-- [Introduction]()
+- [Introduction](https://github.com/DaVinciCodeCTF/linux101-express/raw/master/introduction/introduction.pdf)
