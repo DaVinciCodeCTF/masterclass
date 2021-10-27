@@ -1,0 +1,231 @@
+---
+title: "Python for CTF"
+subtitle: "Introduction to Python librairies for CTFs"
+author: "DaVinciCode"
+date: "30/09/2021"
+output:
+  beamer_presentation:
+    theme: "Madrid"
+    colortheme: "beaver"
+    fonttheme: "structurebold"
+    latex_engine: xelatex
+    includes:
+      in_header: header.tex
+classoption: "aspectratio=169"
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+# `whoami`
+
+```{r, echo=FALSE, fig.show="hold", fig.align='center', out.width = "20%"}
+include_graphics("images/esilv.png")
+include_graphics("images/davincicode.png")
+```
+
+- Clovis
+- A4 IOS
+- President of DaVinciCode
+
+# Python for CTFs
+
+- High Interpreted language level language created in 1991
+- Most used programming language today
+- Version 3
+
+
+# The python command line tool
+## The python command line tool
+
+```{bash eval=FALSE}
+joytide@debian:~$ python3
+Python 3.7.3 (default, Jan 22 2021, 20:04:44) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2+2
+4
+```
+
+
+# The python command
+## The python command
+
+```{bash eval=FALSE}
+$ python3 -V
+Python 3.7.3
+```
+
+```{bash eval=FALSE}
+# python3 -c command
+$ python3 -c "print(2+2)"
+4
+```
+
+```{bash eval=FALSE}
+# python3 -m module
+$ python3 -m venv
+```
+
+
+# Python Package manager: pip
+## Python Package manager
+
+```{bash eval=FALSE}
+$ pip3 install lib
+$ pip3 list
+$ pip3 -r requirements.txt
+```
+
+# Virtual environments
+## Virtual environments
+
+```{bash eval=FALSE}
+$ pip3 list
+$ python3 -m venv my_venv
+$ pip3 list
+```
+
+
+# Overview of python's capacities
+
+## Overview of python's capacities
+
+[Python cheatsheet](https://www.pythoncheatsheet.org)
+
+- Lists, functions, exceptions, dictionaries, args, classes, etc.
+- JSON, regex, scapy, requests...
+
+
+
+
+# Python for CTF
+
+Cryptography, network, pwn, misc.
+
+# Misc
+
+## Regex
+```python
+import re
+re.findall(r'(?::\/\/)(.*)(?:\.)','https://dvc.tf')
+# ["dvc"]
+```
+
+## JSON
+```python
+import json
+dictionary ={"name": "Python_For_CTF", "type": "Masterclass", "month": 9,"awesome": True}
+with open("masterclass.json", "w") as outfile:
+  json.dump(dictionary, outfile, indent = 4) 
+```
+
+
+# Requests
+## Installing request
+
+```{bash eval=FALSE} 
+$ pip3 install requests
+```
+# Requests
+## Basic request to an html page
+ ```python
+ import requests
+ resp = requests.get("https://dvc.tf/")
+ print(resp.status_code,"\n", resp.text)
+ ```
+
+# Scapy
+
+Packet manipulation library: capture, forge, decode, scan...
+
+## Installing Scapy
+```{bash eval=FALSE}
+pip3 install --pre scapy
+```
+# Scapy
+## Usage
+```python
+from scapy.all import *
+import base64
+
+capture = rdpcap('frames.pcapng') # pcap file
+
+output = open('output.bin','wb') # save dumped data to output.bin
+
+for packet in capture:
+  if IP in packet and packet[IP].src == '172.16.139.128' and TCP in packet:
+     output.write(packet[TCP].payload)
+```
+
+
+# Pwntools
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+include_graphics("images/pwntools.png")
+```
+## Installing pwntools
+```{bash eval=FALSE}
+pip3 install pwntools
+```
+# Pwntools
+## Without pwntools
+```bash
+nc pwn-2021.duc.tf 31905
+```
+## With pwntools
+```python
+from pwn import *
+r = remote('pwn-2021.duc.tf', 31905)
+```
+## Even SSH!
+```python
+s=ssh(host='domain.com' ,user='joytide' ,password='123',port=22)
+```
+
+# Pwntools
+## Example
+```python
+from pwn import *
+r = remote('pwn-2021.duc.tf', 31905)
+print(r.recvline().decode('utf-8'))
+
+r.sendline()
+print(r.recvline().decode('utf-8'))
+print(r.recvline().decode('utf-8'))
+r.sendline("2")
+r.interactive()
+```
+
+
+
+
+
+# Going further
+
+[https://docs.pwntools.com/en/stable/](https://docs.pwntools.com/en/stable/)
+
+## The Checksec command
+```bash
+pwn checksec
+```
+## Utils
+```python
+xor(b'abc', b'aaa')
+```
+
+# Going further
+
+[https://docs.pwntools.com/en/stable/](https://docs.pwntools.com/en/stable/)
+
+## Assembly and binary manipulation
+```python
+disasm(b'\xb8\x0b\x00\x00\x00')
+# '   0:   b8 0b 00 00 00          mov    eax, 0xb'
+```
+```python
+e = ELF('/bin/cat')
+```
+
+PWN: Rop, format strings, shellcodes...
