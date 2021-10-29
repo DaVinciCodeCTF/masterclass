@@ -4,99 +4,9 @@ Clovis Carlier / Joytide - 27/10
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## OSI Model
 
 ![Day 51: Understanding the OSI Model | by Z3R0 | Medium](https://miro.medium.com/max/1024/1*17Zz6v0HWIzgiOzQYmO6lA.jpeg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -114,28 +24,6 @@ ip a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### ARP
 
 - Link between layer 2 and 3: assign a MAC to an IP
@@ -148,61 +36,13 @@ arp -a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - Vulnerable to ARP Cache Poisoning (MiTM):
 
 ![ARP spoofing : attaques du réseau interne - IONOS](https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Screenshots/arp_spoofing-example.png)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- Another common spoofind attack: MAC Poisoning
+- Another common spoofing attack: MAC Poisoning	
 
 ![IP/MAC Spoofing Attack](https://download.huawei.com/mdl/imgDownload?uuid=d9b06515129041c0b1ff19fc6ed3bb51.png)
 
@@ -210,59 +50,7 @@ arp -a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Application Layer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### DHCP
 
@@ -283,40 +71,6 @@ route add default gw 192.168.43.1 eth0
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### DNS
 
 - Domain Name System
@@ -332,42 +86,6 @@ dig @8.8.8.8 dvc.tf TXT
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ##### DNS Spoofing/Cache poisonning/Hijacking
 
 ![What is DNS Spoofing | Cache Poisoning Attack Example | Imperva](https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/DNS-spoofing.jpg)
@@ -377,24 +95,6 @@ dig @8.8.8.8 dvc.tf TXT
 ```bash
 dig axfr @$(DNS_IP) $(DOMAIN.COM)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -427,7 +127,9 @@ UDP port scan:
 sudo nmap -sU -oA box_udp $(ip)
 ```
 
-#### TTL
+
+
+#### sTTL
 
 ```bash
 ping $(ip)
