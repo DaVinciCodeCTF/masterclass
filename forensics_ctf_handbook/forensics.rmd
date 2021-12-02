@@ -1,0 +1,206 @@
+---
+title: "Forensics: a CTF handbook"
+subtitle: "Introduction to the forensics category of capture the flags"
+author: "DaVinciCode"
+date: "30/11/2021"
+output:
+  beamer_presentation:
+    theme: "Madrid"
+    colortheme: "beaver"
+    fonttheme: "structurebold"
+    latex_engine: xelatex
+    includes:
+      in_header: header.tex
+classoption: "aspectratio=169"
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+
+
+
+# Forensics: a CTF handbook
+
+- Computer forensics (also known as computer forensic science) is a branch of digital forensic science pertaining to evidence found in computers and digital storage media.
+  (litteraly wikipedia)
+- It's finding stuff hidden in files during CTF.
+  (me)
+- A ne pas confondre avec la stégano :v
+
+- Ca se fait sous windows c:
+
+
+# Intro
+
+## First of all: low hanging fruits
+
+```bash
+# Get a better idea of the file:
+file $(file)
+strings $(file)
+exiftool $(file)
+grep
+binwalk --dd='.*' $(file)
+```
+
+# Common challenges
+
+## Archives
+- File carving
+- Filesystem/Images and logs
+
+## Specific file
+- PCAP
+- PDF
+- Corrupted files
+- Memory forensics
+- Honorable mentions
+
+
+
+# File carving
+Finding info from a dd image, a system dump, a .EO1
+
+- [FTK Imager](https://accessdata.com/product-download/ftk-imager-version-4-5)
+- [Autopsy](https://www.autopsy.com/)
+- [FindAES](https://github.com/mmozeiko/aes-finder)
+
+Example: *ECW2020, Lord of War*
+
+
+# Filesystem/Images and Log analysis
+
+## Windows:
+- EVTX parsers, MFT explorer, File cache parsers, etc...
+=> https://ericzimmerman.github.io
+
+
+Example: [ECW2021 Response Team 3](https://github.com/Choumou/CTF/tree/main/2021/ECW-Qualifications/Forensic/Response_Team)
+
+## Linux:
+- grep?
+
+Example: [ECW2021 Response Team 1](https://github.com/Choumou/CTF/tree/main/2021/ECW-Qualifications/Forensic/Response_Team)
+
+
+# PCAP
+## Ressources
+- [Scapy](https://scapy.net/)
+- [Wireshark](https://www.wireshark.org/)
+- [NetworkMiner](https://www.netresec.com/?page=Blog&month=2014-02&post=HowTo-install-NetworkMiner-in-Ubuntu-Fedora-and-Arch-Linux)
+- Many others!
+
+
+
+# MS Docs
+## What are we tring to do, what are we trying to find?
+- Deobfuscate VBA macros
+- Hidden text, media in unzipped
+
+## Ressources
+- [Oletools: VBA analysis](https://github.com/decalage2/oletools)
+- [ViperMonkey: VBA emulation+deobfuscation+analysis](https://github.com/decalage2/ViperMonkey)
+
+
+
+# PDF Analysis
+## Ressources
+- [Corkami](https://github.com/corkami/docs/blob/master/PDF/PDF.md) by Ange Albertini
+- [qpdf](https://github.com/qpdf/qpdf)
+- [peepdf](https://github.com/jesparza/peepdf)
+- Pdf-parser, only on kali
+
+
+
+
+
+# Corrupted files
+
+Corrupted PNG
+```bash
+pngcheck $image
+PCRT $image
+```
+
+[PNG Check & Repair Tool](https://github.com/sherlly/PCRT) or [Pixrecovery](https://online.officerecovery.com/pixrecovery/)
+
+
+# Memory forensics
+
+Volatility: 
+
+```bash
+# Get basic info for a dump, including recommended profiles.
+volatility -f $DUMP imageinfo
+
+# For this example, let's use the Win7SP0x64 profile
+volatility -f $DUMP --profile=Win7SP0x64 $(plugin command)
+
+```
+
+
+
+# Windows memory analysis
+Some useful plugins:
+```bash
+# View processes; see also pslist and psscan.
+volatility -f $DUMP --profile=Win7SP0x64 pstree
+
+# Dump the memory of a specific process.
+volatility -f $DUMP --profile=Win7SP0x64 memdump -p <PID> -D dump/
+
+# View commands run in the command prompt.
+volatility -f $DUMP --profile=Win7SP0x64 connections
+```
+
+# Windows memory analysis
+Some useful plugins:
+```bash
+# View network connections; use `consoles` to also get command prompt output.
+volatility -f $DUMP --profile=Win7SP0x64 cmdscan
+
+# View environment variables.
+volatility -f $DUMP --profile=Win7SP0x64 envars
+
+# View internet explorer history.
+volatility -f $DUMP --profile=Win7SP0x64 iehistory
+```
+
+
+# Linux dumps
+Wait, what do I do if it's not a windows memory dump?
+
+# Linux dumps
+Short answer, you're f*cked
+
+# Linux dumps
+Long answer, it's gonna be longer, be there's options
+
+# Linux dumps
+
+```bash
+grep -ai "linux version" $DUMP | uniq 
+grep -ai "Linux release" $DUMP | uniq 
+grep -ai "BOOT_IMAGE" $DUMP | uniq
+grep -ai "distrib_description=" $DUMP | uniq 
+```
+Generate a profile:
+[https://illuad.fr/2020/11/26/writeup-dga-ctf-bwing.html](DGA 2020)
+
+
+
+# Honorable mentions
+To go deeper... Forensics is a vast subject!
+
+## Everything can be searched deeped down, everything is a file, and everything is bruteforceable.
+- [Mozilla passwords](https://github.com/lclevy/firepwd)
+- [BMCs](https://github.com/ANSSI-FR/bmc-tools)
+- [Ducky bin](https://ducktoolkit.com/)
+- [Android patterns](https://github.com/sch3m4/androidpatternlock)
+- [Keepass](https://github.com/csirac2/keepass_guesser)
+
+
+
