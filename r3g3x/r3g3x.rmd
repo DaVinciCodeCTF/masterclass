@@ -110,11 +110,12 @@ regex = r"dvCTF{\S{3,}}"
 
 
 # More stuff no know by heart?
-## Options
+## Options/Modifiers
 ```
 i => case insensitive
 m => multiline
 s => single line
+e => eval
 ...
 ```
 
