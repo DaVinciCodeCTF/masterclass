@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.8.23)  25 NOV 2022 14:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.8.23)  26 OCT 2022 08:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**network.tex
-(./network.tex
+**introduction.tex
+(./introduction.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/beam
 er/beamer.cls
@@ -773,8 +773,8 @@ File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 \BKM@id=\count363
 )) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
-) (./network.aux)
-\openout1 = `network.aux'.
+) (./introduction.aux)
+\openout1 = `introduction.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
 LaTeX Font Info:    ... okay on input line 141.
@@ -1151,12 +1151,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(./network.nav)
+(./introduction.nav)
 Missing character: There is no 5 ("35) in font nullfont!
 File: ../emojis/apple_locomotive.png Graphic file (type bmp)
 <../emojis/apple_locomotive.png>
-File: ./images/davincicode.png Graphic file (type bmp)
-<./images/davincicode.png>
+File: ./images//tux.png Graphic file (type bmp)
+<./images//tux.png>
 [1
 
 ]
@@ -1170,100 +1170,160 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
 
 ] [3
 
-]
-File: images/osi.jpeg Graphic file (type bmp)
-<images/osi.jpeg>
-[4
+] [4
 
 ]
-\openout4 = `network.vrb'.
+\openout4 = `introduction.vrb'.
 
-(./network.vrb) [5
-
-]
-\openout4 = `network.vrb'.
-
-(./network.vrb
-File: images/arp_spoofing.png Graphic file (type bmp)
-<images/arp_spoofing.png>
-)
-Overfull \vbox (1.33746pt too high) detected at line 227
- []
-
-[6
+(./introduction.vrb) [5
 
 ]
-File: images/macpoison.png Graphic file (type bmp)
-<images/macpoison.png>
-[7
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [6
 
 ]
-\openout4 = `network.vrb'.
+\openout4 = `introduction.vrb'.
 
-(./network.vrb
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-) [8
+(./introduction.vrb) [7
 
 ]
-\openout4 = `network.vrb'.
+\openout4 = `introduction.vrb'.
 
-(./network.vrb
+(./introduction.vrb) [8
+
+]
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [9
+
+]
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [10
+
+]
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [11
+
+]
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [12
+
+]
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [13
+
+]
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb
+File: images/piping.jpg Graphic file (type bmp)
+<images/piping.jpg>
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 18.
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
-) [9
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 10.
+) [14
 
 ]
-File: images/DNS-spoofing.jpg Graphic file (type bmp)
-<images/DNS-spoofing.jpg>
-[10
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [15
 
 ]
-\openout4 = `network.vrb'.
+\openout4 = `introduction.vrb'.
 
-(./network.vrb
-File: images/zone-transfers.png Graphic file (type bmp)
-<images/zone-transfers.png>
-) [11
+(./introduction.vrb) [16
 
 ]
-\openout4 = `network.vrb'.
+\openout4 = `introduction.vrb'.
 
-(./network.vrb
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-) [12
+(./introduction.vrb) [17
 
 ]
-\openout4 = `network.vrb'.
+\openout4 = `introduction.vrb'.
 
-(./network.vrb
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-) [13
+(./introduction.vrb) [18
+
+]
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [19
+
+]
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [20
+
+]
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [21
+
+]
+\openout4 = `introduction.vrb'.
+
+(./introduction.vrb) [22
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 424.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.8961pt on input line 424.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.64008pt on input line 424.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+24.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 11.28131pt on input line 424.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.89691pt on input line 424.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.64066pt on input line 424.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.27914pt on input line 424.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.8954pt on input line 424.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.63957pt on input line 424.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 424
+.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 424
+.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [23
 
 ]
 \tf@nav=\write6
-\openout6 = `network.nav'.
+\openout6 = `introduction.nav'.
 
 \tf@toc=\write7
-\openout7 = `network.toc'.
+\openout7 = `introduction.toc'.
 
 \tf@snm=\write8
-\openout8 = `network.snm'.
+\openout8 = `introduction.snm'.
 
-(./network.aux) ) 
+(./introduction.aux) ) 
 Here is how much of TeX's memory you used:
- 30370 strings out of 476191
- 622132 string characters out of 5812072
- 1051454 words of memory out of 5000000
- 50538 multiletter control sequences out of 15000+600000
- 470007 words of font info for 49 fonts, out of 8000000 for 9000
+ 30403 strings out of 476191
+ 622045 string characters out of 5812072
+ 1047842 words of memory out of 5000000
+ 50514 multiletter control sequences out of 15000+600000
+ 472858 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,15n,122p,1004b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,15n,122p,1009b,658s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on network.pdf (13 pages).
+Output written on introduction.pdf (23 pages).

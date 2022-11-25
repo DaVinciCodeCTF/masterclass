@@ -26,9 +26,9 @@ include_graphics("images/esilv.png")
 include_graphics("images/davincicode.png")
 ```
 
-- Louis
+- Clovis
 - A5 IOS
-- Vice-president of DaVinciCode
+- Founder & VP of DaVinciCode
 
 # Linux
 
@@ -88,7 +88,7 @@ bash --help
 # Moving around directories
 
 ```{bash eval=FALSE}
-cd /home/louis # Change Directory
+cd /home/joytide # Change Directory
 cat, xxd, head, tail, diff, less
 mkdir
 touch, rm
@@ -200,3 +200,4 @@ done
 # Going further
 
 - _The Missing Semester of Your CS Education_ at [https://missing.csail.mit.edu/](https://missing.csail.mit.edu/)
+- _Wargame: OverTheWire_ [https://overthewire.org/wargames/bandit/bandit0.html](https://overthewire.org/wargames/bandit/bandit0.html)
