@@ -42,3 +42,35 @@ Cours sur l'utilisation des expressions régulières.
 - ### Steganography 🎨
 
 Cours et outils sur la séganographie en CTF
+
+## > Présentations 2025
+
+- ### Python For CTF  🐍
+
+Cours de présentation de l'utilisation de Python pour les CTF avec des exercices pratiques.
+
+REPLAY (DVHE seulement) : 
+
+- ### Reverse Engineering For CTF 🌀
+
+Cours de présentation des bases théoriques des architectures systèmes, des outils et principes du reverse engineering Python pour les CTF avec une mise en pratique sur RootMe.
+
+REPLAY (DVHE seulement) : 
+
+- ### EXT : OSINT 🌍
+
+Cours de présentation sur l'OSINT par un intervenant externe, avec un exercice.
+
+REPLAY (DVHE seulement) : 
+
+- ### Forensic Level 1 🔨
+
+Cours de présentation de l'analyse forensique pour les débutants, avec plusieurs exercices.
+
+REPLAY (DVHE seulement) : 
+
+- ### Forensic Level 2 ✂️
+
+Cours de présentation de l'analyse forensique avancée, avec plusieurs exercices.
+
+REPLAY (DVHE seulement) : 
