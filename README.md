@@ -59,7 +59,7 @@ REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/Davincic
 
 - ### EXT : OSINT 🌍
 
-Cours de présentation sur l'OSINT par un intervenant externe, avec un exercice.
+Cours et présentation sur l'OSINT par un intervenant externe, avec un exercice.
 
 REPLAY (DVHE seulement) : PAS DE REPLAY
 
@@ -74,3 +74,33 @@ REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/Davincic
 Cours de présentation de l'analyse forensique avancée, avec plusieurs exercices.
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023/_layouts/15/guestaccess.aspx?share=EWTQ6MGYCdtBmH3dJc-Sf5MBpjOnrpslMioQkBbyl-C59w&e=mYnH9p)
+
+-  ### EXT : Radio fréquences et HackRF 📡
+
+Introduction aux radios fréquences et travaux pratiques utilisant le HackRF One.
+
+REPLAY (DVHE seulement) : [replay 🏗️]()
+
+- ### EXT : RETEX & Cadenas Bluetooth 🔐
+
+Présentation d'un parcours féminin dans la cybersécurité et partage des travaux réalisés sur le hacking d'un cadenas Bluetooth.
+
+REPLAY (DVHE seulement) : [replay 🏗️]()
+
+- ### Active Directory et GOAD 👑
+
+Cours complet sur l'Active Directory et expérimentations sur l'infrastructure de l'association avec GOAD.
+
+REPLAY (DVHE seulement) : [replay 🏗️]()
+
+- ### ⌛ Pwn niveau 0 🏆
+
+Introduction au PWN et exercices pratiques.
+
+REPLAY (DVHE seulement) : [replay 🏗️]()
+
+- ### ⌛ Cryptographie 🗝️
+
+Introduction à la cryptographie et exercices pratiques.
+
+REPLAY (DVHE seulement) : [replay 🏗️]()
