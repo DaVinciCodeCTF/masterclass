@@ -49,7 +49,7 @@ Cours et outils sur la séganographie en CTF
 
 Cours de présentation de l'utilisation de Python pour les CTF avec des exercices pratiques.
 
-Documents : En attente
+Documents : Support de présentation
 
 REPLAY (DVHE seulement) :  **Pas de replays**
 
@@ -57,7 +57,7 @@ REPLAY (DVHE seulement) :  **Pas de replays**
 
 Cours de présentation des bases théoriques des architectures systèmes, des outils et principes du reverse engineering Python pour les CTF avec une mise en pratique sur RootMe.
 
-Documents : En attente
+Documents : **Pas de documents**
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023/_layouts/15/guestaccess.aspx?share=EV_ig9BQR5dLvrNYTftGEJsBCmLkbcGek0_vbEPNU_bdoA&e=sl9N0A)
 
