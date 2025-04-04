@@ -107,7 +107,7 @@ Cours complet sur l'Active Directory et expérimentations sur l'infrastructure d
 
 Documents : Support de présentation
 
-REPLAY (DVHE seulement) : [replay 🏗️]()
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023/_layouts/15/guestaccess.aspx?share=EQ5F_bZ34h1HkeuxSrN8vHgBhBXXgOpdEmuNsgecazydiw&e=elp5Ez)
 
 - ### ⌛ Pwn niveau 0 🏆
 
