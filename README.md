@@ -59,7 +59,7 @@ Cours de présentation des bases théoriques des architectures systèmes, des ou
 
 Documents : **Pas de documents**
 
-REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023/_layouts/15/guestaccess.aspx?share=EV_ig9BQR5dLvrNYTftGEJsBCmLkbcGek0_vbEPNU_bdoA&e=sl9N0A)
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=EW2K3az9EhBAjTJhnPX6a5QBWOuiQJYStXUZeGs-nvG4bw&e=SsHXy2)
 
 - ### EXT : OSINT 🌍
 
@@ -75,7 +75,7 @@ Cours de présentation de l'analyse forensique pour les débutants, avec plusieu
 
 Documents : Exercices + Support de présentation
 
-REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023/_layouts/15/guestaccess.aspx?share=EcFaibfHzWlDr8q0Hlvkj8EB4mVRPT8iwSwXmqi9sf-YMg&e=LDtbje)
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=EVFiAEhni0lLmDJLU7UgYBMB26KfgL3QQinr4lG35x-fEA&e=52bkFd)
 
 - ### Forensic Level 2 ✂️
 
@@ -83,7 +83,7 @@ Cours de présentation de l'analyse forensique avancée, avec plusieurs exercice
 
 Documents : Exercices + Support de présentation
 
-REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023/_layouts/15/guestaccess.aspx?share=EWTQ6MGYCdtBmH3dJc-Sf5MBpjOnrpslMioQkBbyl-C59w&e=mYnH9p)
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=EW7BoQit5rBLuP0R2pO1-OsBBFpHzBf4BHCS-Wp4a6cTQw&e=rkhttm)
 
 -  ### EXT : Radio fréquences et HackRF 📡
 
@@ -91,7 +91,7 @@ Introduction aux radios fréquences et travaux pratiques utilisant le HackRF One
 
 Documents : **Pas de documents**
 
-REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023/_layouts/15/guestaccess.aspx?share=EaIEIZ8ykP1Mg8Fas-BcIAoBMQ5a9QeZyeDfrKl7Iuf-Vg&e=HjZHUt)
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=EYiDFZyRUxNEjEdiFqQSEIUBuiCrDF224MTsTU0Ss88-BA&e=7RLQxp)
 
 - ### EXT : RETEX & Cadenas Bluetooth 🔐
 
@@ -99,7 +99,7 @@ Présentation d'un parcours féminin dans la cybersécurité et partage des trav
 
 Documents : Support de présentation
 
-REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023/_layouts/15/guestaccess.aspx?share=Ec5AiF1Zg7FLm_dTKa28BwgBKglhCxK3bCmX68PbGwnhDA&e=DFIycm)
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=EZrcnfhRQTtIn2SiEzpNtWkBmnnwP73CdbxMkgy6hRGZKA&e=DBt6VJ)
 
 - ### Active Directory et GOAD 👑
 
@@ -107,7 +107,7 @@ Cours complet sur l'Active Directory et expérimentations sur l'infrastructure d
 
 Documents : Support de présentation
 
-REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023/_layouts/15/guestaccess.aspx?share=EQ5F_bZ34h1HkeuxSrN8vHgBhBXXgOpdEmuNsgecazydiw&e=elp5Ez)
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=EUQ83FX5A-tDtJNB1UwrTR0B5VOw3ePjj6z1K5W3Q9UdKw&e=1TdpdS)
 
 - ### ⌛ Pwn niveau 0 🏆
 
