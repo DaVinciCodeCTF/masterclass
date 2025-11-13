@@ -123,6 +123,14 @@ REPLAY (DVHE seulement) : [replay 🏗️]()
 
 ## > Présentations 2025 - 2026
 
+- ### Cybersecurity 101 : Introduction à la cybersécurité 🚸
+
+Introduction à la cybersécurité, Linux, distros, bash, catégories en CTF, ...
+
+Documents : Support de présentation
+
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQBkYBcWoEX_TKjh5q4dCxLfAU5-6WBPPB37Kzd7GZmdPaI&e=wwRlib)
+
 - ### Bases réseau 🛜
 
 Concepts de base en réseau, encodage, modulation, adressage, équipements, ...
