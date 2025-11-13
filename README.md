@@ -10,38 +10,24 @@
 
 Cours proposé par DaVinciCode, [l'association de cybersécurité](https://davincicode.fr/) de l'[École supérieure d'ingénieurs Léonard-de-Vinci](https://www.esilv.fr/).
 
-## >  Présentations 2021 - 2022
+## > Présentations 2025 - 2026
 
-  - ### Python For CTF 🐍 🚩
+- ### Cybersecurity 101 : Introduction à la cybersécurité 🚸
 
-Cours sur l'utilisation de Python en CTF : [Liens vers les slides](https://github.com/DaVinciCodeCTF/linux101-express/raw/master/python_for_ctf/python.pdf)
+Introduction à la cybersécurité, Linux, distros, bash, catégories en CTF, ...
 
-  - ### Forensics Handbook For CTF 🔬 📖 
+Documents : Support de présentation
 
-Cours sur l'analyse forensique et les outils utilisés pendant en CTF.
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQBkYBcWoEX_TKjh5q4dCxLfAU5-6WBPPB37Kzd7GZmdPaI&e=wwRlib)
 
+- ### Bases réseau 🛜
 
-## > Présentations 2022 - 2023
+Concepts de base en réseau, encodage, modulation, adressage, équipements, ...
 
-- ### Linux101 Express 🚂🐧
+Documents : Support de présentation
 
-Cours sur les bases de Linux : [Liens vers les slides](https://github.com/DaVinciCodeCTF/linux101-express/raw/master/linux101/introduction.pdf)
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQA68gD7S72NRbU-YJ-ipYwPASOzuoSpQ6FCXiRwHL4RZTs&e=aeAEHa)
 
-- ### Network And Recon 🌐 🔭 
-
-Cours sur les bases en réseaux et reconaissance.
-
-- ### NMAP 👀
-
-Cours sur les bases de la reconnaissance avec NMAP.
-
-- ### R3G3X 🔍
-
-Cours sur l'utilisation des expressions régulières.
-
-- ### Steganography 🎨
-
-Cours et outils sur la séganographie en CTF
 
 ## > Présentations 2024 - 2025
 
@@ -121,20 +107,35 @@ Introduction à la cryptographie et exercices pratiques.
 
 REPLAY (DVHE seulement) : [replay 🏗️]()
 
-## > Présentations 2025 - 2026
 
-- ### Cybersecurity 101 : Introduction à la cybersécurité 🚸
+## > Présentations 2022 - 2023
 
-Introduction à la cybersécurité, Linux, distros, bash, catégories en CTF, ...
+- ### Linux101 Express 🚂🐧
 
-Documents : Support de présentation
+Cours sur les bases de Linux : [Liens vers les slides](https://github.com/DaVinciCodeCTF/linux101-express/raw/master/linux101/introduction.pdf)
 
-REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQBkYBcWoEX_TKjh5q4dCxLfAU5-6WBPPB37Kzd7GZmdPaI&e=wwRlib)
+- ### Network And Recon 🌐 🔭 
 
-- ### Bases réseau 🛜
+Cours sur les bases en réseaux et reconaissance.
 
-Concepts de base en réseau, encodage, modulation, adressage, équipements, ...
+- ### NMAP 👀
 
-Documents : Support de présentation
+Cours sur les bases de la reconnaissance avec NMAP.
 
-REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQA68gD7S72NRbU-YJ-ipYwPASOzuoSpQ6FCXiRwHL4RZTs&e=aeAEHa)
+- ### R3G3X 🔍
+
+Cours sur l'utilisation des expressions régulières.
+
+- ### Steganography 🎨
+
+Cours et outils sur la séganographie en CTF
+
+## >  Présentations 2021 - 2022
+
+  - ### Python For CTF 🐍 🚩
+
+Cours sur l'utilisation de Python en CTF : [Liens vers les slides](https://github.com/DaVinciCodeCTF/linux101-express/raw/master/python_for_ctf/python.pdf)
+
+  - ### Forensics Handbook For CTF 🔬 📖 
+
+Cours sur l'analyse forensique et les outils utilisés pendant en CTF.
