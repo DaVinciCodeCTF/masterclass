@@ -28,6 +28,13 @@ Documents : Support de présentation
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQA68gD7S72NRbU-YJ-ipYwPASOzuoSpQ6FCXiRwHL4RZTs&e=aeAEHa)
 
+- ### OWASP Top 10
+
+Sécurité Web, OWASP Top 10 et vulnérabilités communes : IDOR, File Upload, XSS, SQL Injection
+
+Documents : Support de présentation
+
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQBXFeF5CbqcQrWUzQ8e0cO4ASCqB6cWQw422rp_Y8nD4gM&e=oLbSW1)
 
 ## > Présentations 2024 - 2025
 
