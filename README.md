@@ -16,7 +16,7 @@ Cours proposé par DaVinciCode, [l'association de cybersécurité](https://davin
 
 Introduction à la cybersécurité, Linux, distros, bash, catégories en CTF, ...
 
-Documents : Support de présentation
+Documents : [Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2025/Cybersecurite_Bases)
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQBkYBcWoEX_TKjh5q4dCxLfAU5-6WBPPB37Kzd7GZmdPaI&e=wwRlib)
 
@@ -24,7 +24,7 @@ REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/Davincic
 
 Concepts de base en réseau, encodage, modulation, adressage, équipements, ...
 
-Documents : Support de présentation
+Documents : [Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2025/Reseau_Bases)
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQA68gD7S72NRbU-YJ-ipYwPASOzuoSpQ6FCXiRwHL4RZTs&e=aeAEHa)
 
@@ -32,7 +32,7 @@ REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/Davincic
 
 Sécurité Web, OWASP Top 10 et vulnérabilités communes : IDOR, File Upload, XSS, SQL Injection
 
-Documents : Support de présentation
+Documents : [Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2025/Web)
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQBXFeF5CbqcQrWUzQ8e0cO4ASCqB6cWQw422rp_Y8nD4gM&e=oLbSW1)
 
@@ -42,7 +42,7 @@ REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/Davincic
 
 Cours de présentation de l'utilisation de Python pour les CTF avec des exercices pratiques.
 
-Documents : Support de présentation
+Documents : [Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2025/Python)
 
 REPLAY (DVHE seulement) :  **Pas de replays**
 
@@ -66,7 +66,7 @@ REPLAY (DVHE seulement) : **Pas de replays**
 
 Cours de présentation de l'analyse forensique pour les débutants, avec plusieurs exercices.
 
-Documents : Exercices + Support de présentation
+Documents : [Exercices + Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2025/Forensic_Level_1)
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=EVFiAEhni0lLmDJLU7UgYBMB26KfgL3QQinr4lG35x-fEA&e=52bkFd)
 
@@ -74,7 +74,7 @@ REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/Davincic
 
 Cours de présentation de l'analyse forensique avancée, avec plusieurs exercices.
 
-Documents : Exercices + Support de présentation
+Documents : [Exercices + Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2025/Forensic_Level_2)
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=EW7BoQit5rBLuP0R2pO1-OsBBFpHzBf4BHCS-Wp4a6cTQw&e=rkhttm)
 
@@ -90,7 +90,7 @@ REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/Davincic
 
 Présentation d'un parcours féminin dans la cybersécurité et partage des travaux réalisés sur le hacking d'un cadenas Bluetooth.
 
-Documents : Support de présentation
+Documents : [Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2025/EXT_RETEX_Bluetooth)
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=EZrcnfhRQTtIn2SiEzpNtWkBmnnwP73CdbxMkgy6hRGZKA&e=DBt6VJ)
 
@@ -98,13 +98,15 @@ REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/Davincic
 
 Cours complet sur l'Active Directory et expérimentations sur l'infrastructure de l'association avec GOAD.
 
-Documents : Support de présentation
+Documents : [Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2025/Active_Directory)
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=EUQ83FX5A-tDtJNB1UwrTR0B5VOw3ePjj6z1K5W3Q9UdKw&e=1TdpdS)
 
 - ### ⌛ Pwn niveau 0 🏆
 
 Introduction au PWN et exercices pratiques.
+
+Documents : [Exercices + Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2025/Pwn)
 
 REPLAY (DVHE seulement) : [replay 🏗️]()
 
@@ -119,30 +121,44 @@ REPLAY (DVHE seulement) : [replay 🏗️]()
 
 - ### Linux101 Express 🚂🐧
 
-Cours sur les bases de Linux : [Liens vers les slides](https://github.com/DaVinciCodeCTF/linux101-express/raw/master/linux101/introduction.pdf)
+Cours sur les bases de Linux.
+
+Documents : [Exercices + Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2022/linux101)
 
 - ### Network And Recon 🌐 🔭 
 
 Cours sur les bases en réseaux et reconaissance.
 
+Documents : [Exercices + Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2022/network_and_recon)
+
 - ### NMAP 👀
 
 Cours sur les bases de la reconnaissance avec NMAP.
+
+Documents : [Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2022/nmap)
 
 - ### R3G3X 🔍
 
 Cours sur l'utilisation des expressions régulières.
 
+Documents : [Exercices + Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2022/r3g3x)
+
 - ### Steganography 🎨
 
-Cours et outils sur la séganographie en CTF
+Cours et outils sur la séganographie en CTF.
+
+Documents : [Exercices + Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2022/stega)
 
 ## >  Présentations 2021 - 2022
 
   - ### Python For CTF 🐍 🚩
 
-Cours sur l'utilisation de Python en CTF : [Liens vers les slides](https://github.com/DaVinciCodeCTF/linux101-express/raw/master/python_for_ctf/python.pdf)
+Cours sur l'utilisation de Python en CTF.
+
+Documents : [Exercices + Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2021/python_for_ctf)
 
   - ### Forensics Handbook For CTF 🔬 📖 
 
 Cours sur l'analyse forensique et les outils utilisés pendant en CTF.
+
+Documents : [Exercices + Support de présentation](https://github.com/DaVinciCodeCTF/masterclass/tree/master/2021/forensics_ctf_handbook)
