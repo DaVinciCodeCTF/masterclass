@@ -36,6 +36,13 @@ Documents : [Support de présentation](https://github.com/DaVinciCodeCTF/masterc
 
 REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQBXFeF5CbqcQrWUzQ8e0cO4ASCqB6cWQw422rp_Y8nD4gM&e=oLbSW1)
 
+- ### Les bases de Python
+
+Cours sur Python, ressources web, requests, pwntools.
+
+Documents : [Site web](http://paracetamole.site:3000/)
+
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/guestaccess.aspx?share=IQDfgyx3f7jkQq_ue3BysaNmAZzKG4LOkEqDSpwDkDdnT7E&e=ndCztV)
 ## > Présentations 2024 - 2025
 
 - ### Python For CTF  🐍
