@@ -82,6 +82,16 @@ REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/Davincic
 
 IMAGE : [IMAGE](https://raw.githubusercontent.com/DaVinciCodeCTF/masterclass/master/2025/26_03_21_Active_Directory/26_03_21_Active_Directory.png)
 
+- ### Présentation du métier Bug Bounty 🔬
+
+Parcours dans la cybersécurité pour en arriver au Bug Bounty, présentation du métier Bug Bounty, retour d’expérience, anecdotes & trouvailles amusantes, questions - réponses.
+
+Documents : **Pas de documents**
+
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/stream.aspx?id=%2Fsites%2FDavincicodeBureau2022%2D2023%2DPleEvnementiel%5F%2FDocuments%20partages%2FP%C3%B4le%20Ev%C3%A9nementiel%2F2025%2D2026%2FReplays%2F2026%5F03%5F26%5FPM%5FBugBounty%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4e00f397%2Db9c2%2D4eab%2D88c9%2Ddf2d47a67c8e)
+
+IMAGE : [IMAGE](https://raw.githubusercontent.com/DaVinciCodeCTF/masterclass/master/2025/PM_Bug_Bounty/PM_Bug_Bounty.png)
+
 ## > Présentations 2024 - 2025
 
 - ### Python For CTF  🐍
