@@ -72,6 +72,16 @@ REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/Davincic
 
 IMAGE : [IMAGE](https://raw.githubusercontent.com/DaVinciCodeCTF/masterclass/master/2025/Reseau_Avance/Reseau_Avance.png)
 
+- ### Active Directory et GOAD 👑
+  
+Cours complet sur l'Active Directory et expérimentations sur l'infrastructure de l'association avec GOAD.
+
+Documents : **Pas de documents**
+
+REPLAY (DVHE seulement) : [replay](https://devinci.sharepoint.com/sites/DavincicodeBureau2022-2023-PleEvnementiel_/_layouts/15/stream.aspx?id=%2Fsites%2FDavincicodeBureau2022%2D2023%2DPleEvnementiel%5F%2FDocuments%20partages%2FP%C3%B4le%20Ev%C3%A9nementiel%2F2025%2D2026%2FReplays%2F2026%5F03%5F21%5FActiveDirectory%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E89d53061%2D3aca%2D4949%2D9de4%2D3db14f71f0dc)
+
+IMAGE : [IMAGE](https://raw.githubusercontent.com/DaVinciCodeCTF/masterclass/master/2025/26_03_21_Active_Directory/26_03_21_Active_Directory.png)
+
 ## > Présentations 2024 - 2025
 
 - ### Python For CTF  🐍
